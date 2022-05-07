@@ -23,18 +23,30 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #3a3a3a;
+    background-image: url('../images/hero-image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(255,199,90);
 }
 
 /*Headings and logo */
 #logo{
     font-family: 'euro1', sans-serif;
-    font-size: 400%;
+    font-size: 350%;
     color: black;
     letter-spacing: 1px;
     text-transform: capitalize;
     float: left;
+    margin-left: 30px;
 }
 
+#mic-logo{
+    height: 70px;
+    float: left;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
 h1, h2{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -42,8 +54,11 @@ h1, h2{
     color: #3a3a3a;
 }
 
+header{
+    background-color:rgb(254,111,94); ;
+}
 /* navigation links */
-
+/*
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
@@ -57,7 +72,9 @@ h1, h2{
 
 #menu li{
     list-style-type: none;
-    margin-right:  100px;
+    padding-left:  50px;
+    padding-right: 50px;
+    background-color: aqua;
 }
 
 #menu a {
@@ -68,13 +85,89 @@ h1, h2{
 #menu a:hover{
     border-bottom: 1px solid #3a3a3a;
 }
+*/
 
-.active{
-    border-bottom: 1px solid #3a3a3a;
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+  
+#menu li {
+    display: block;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0 30px;
+}
+  
+#menu li a {
+    display: block;
+    position: relative;
+    font: normal 18px/100%;
+    text-decoration: none;
+    background: #000;
+    padding: 0 50px;
+    margin: 0 5px;
+    line-height: 76px;
+    -webkit-text-fill-color: #fff;
+}
+  
+#menu li:nth-child(1) a {
+      background: rgb(122,168,140);
+      color: rgb(122,168,140);
+}
+  
+#menu li:nth-child(2) a {
+      background: rgb(3,11,99);
+      color: rgb(3,11,99);
+}
+  
+#menu li:nth-child(3) a {
+      background: rgb(122,168,140);
+      color: rgb(122,168,140);
+}
+  
+#menu li:nth-child(4) a {
+      background: rgb(3,11,99);
+      color: rgb(3,11,99);
+}
+  
+#menu li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    border: 38px solid;
+    border-left-color: transparent !important;
+    border-top-color: transparent !important;
+}
+  
+#menu li a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border: 38px solid;
+    border-right-color: transparent !important;
+    border-bottom-color: transparent !important;
+}
+  
+#menu li a:hover {
+    background: black;
+}
+  
+#menu li a:hover::before, #menu li a:hover::after {
+    border-color: black;
 }
 
+.active{
+    text-decoration: underline !important;
+    text-decoration-color: white !important;
+}
 /* hero image and cover text*/
-
+/*
 #hero-section{
     position: relative;
 }
@@ -89,8 +182,8 @@ h1, h2{
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 500px;
-    height:400px;
+    width: 800px;
+    height:800px;
 
     padding-top: 40px;
     padding-left: 10px;
@@ -112,3 +205,4 @@ h1, h2{
     background-position: center;
     position: relative;
 }
+*/
