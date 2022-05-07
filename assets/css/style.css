@@ -57,7 +57,7 @@ h1, h2{
 }
 
 header{
-    background-color:rgb(254,111,94); ;
+    background-color:rgb(254,111,94);
 }
 
 /* navigation links */
@@ -175,7 +175,29 @@ header{
     background-color:rgba(3,11,99, 0.6);
 }
 
+#map-container{
+    margin: 100px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /*Footer*/
+
 footer{
-    background-color: rgb(122,168,140);
+    background-color:rgb(254,111,94);
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 350%;
+    margin: 1%;
+    padding: 5%;
+    color:rgb(74, 153, 104);
 }
