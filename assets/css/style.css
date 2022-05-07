@@ -27,6 +27,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat, repeat;
     background-color: rgb(255,199,90);
+    color: white;
 }
 
 /*Headings and logo */
@@ -47,46 +48,19 @@ body{
     margin: 0;
     border: none;
 }
+
 h1, h2{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #3a3a3a;
+    color: white;
 }
 
 header{
     background-color:rgb(254,111,94); ;
 }
+
 /* navigation links */
-/*
-#menu{
-    font-size: 110%;
-    letter-spacing: 4px;
-    display: flex;
-    justify-content: center;
-}
-
-#menu, #logo{
-    line-height: 75px;
-}
-
-#menu li{
-    list-style-type: none;
-    padding-left:  50px;
-    padding-right: 50px;
-    background-color: aqua;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
-}
-*/
-
 #menu {
     display: flex;
     justify-content: flex-end;
@@ -166,43 +140,42 @@ header{
     text-decoration: underline !important;
     text-decoration-color: white !important;
 }
-/* hero image and cover text*/
-/*
-#hero-section{
-    position: relative;
+
+/* Body styling */
+#about-container{
+    margin: 100px 100px;
+    background-color:rgba(3,11,99, 0.6);
+    display: flex;
+    justify-content: space-evenly;
 }
 
-#cover-text, #cover-text h2{
-    color: #fff;
+#about-info-section{
+    padding: 20px 50px;
+    width: 50%;
 }
 
-#cover-text{
-    font-size: 130%;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 800px;
-    height:800px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(14, 15, 65, 0.7);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
-
+#about-image-section{
+    width: 50%;
 }
 
-#hero-image{
-    height: 600px;
-    width: 100%;
-    background-image: url('../images/hero-image.jpeg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
+#about-image{
+    width: 90%;
+    padding: 100px 10px;
 }
-*/
+
+#timetable-container{
+    margin: 100px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.event-details{
+    width: 30%;
+    padding: 10px;
+    background-color:rgba(3,11,99, 0.6);
+}
+
+/*Footer*/
+footer{
+    background-color: rgb(122,168,140);
+}
