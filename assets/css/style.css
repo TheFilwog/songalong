@@ -73,7 +73,36 @@ h1, h2{
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image */
+/* hero image and cover text*/
+
+#hero-section{
+    position: relative;
+}
+
+#cover-text, #cover-text h2{
+    color: #fff;
+}
+
+#cover-text{
+    font-size: 130%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 500px;
+    height:400px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(14, 15, 65, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
+}
 
 #hero-image{
     height: 600px;
@@ -81,4 +110,5 @@ h1, h2{
     background-image: url('../images/hero-image.jpeg');
     background-size: cover;
     background-position: center;
+    position: relative;
 }
