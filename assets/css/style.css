@@ -33,7 +33,6 @@ body{
     letter-spacing: 1px;
     text-transform: capitalize;
     float: left;
-    padding: 20px 20px;
 }
 
 h1, h2{
@@ -49,11 +48,37 @@ h1, h2{
     font-size: 110%;
     letter-spacing: 4px;
     display: flex;
-    justify-content: flex-start;
-    padding: 50px 50px;
+    justify-content: center;
+}
+
+#menu, #logo{
+    line-height: 75px;
 }
 
 #menu li{
     list-style-type: none;
-    margin-right:  30px;
+    margin-right:  100px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image */
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/hero-image.jpeg');
+    background-size: cover;
+    background-position: center;
 }
