@@ -219,6 +219,18 @@ header{
     padding: 20px;
 }
 
+/*Gallery Page*/
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
 /*Footer*/
 
 footer{
