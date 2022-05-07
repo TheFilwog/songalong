@@ -193,6 +193,32 @@ header{
     display: flex;
 }
 
+/*Entries Page */
+
+#map-selector{
+    background-color:rgba(3,11,99, 0.6);
+    display: inline-block;
+    margin: 75px 75px;
+    vertical-align: middle;
+}
+
+#map-selector h1{
+    text-align: center;
+}
+#map-selector img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#entry-info{
+    background-color:rgba(3,11,99, 0.6);
+    display: flex;
+    margin: 75px 75px;
+    padding: 20px;
+}
+
 /*Footer*/
 
 footer{
