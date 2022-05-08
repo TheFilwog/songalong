@@ -148,6 +148,20 @@ header{
     text-decoration-color: white !important;
 }
 
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
 /* Body styling */
 
 #about-container{
@@ -172,25 +186,25 @@ header{
 }
 
 #timetable-container{
-    display: flex;
     flex-direction:column;
 }
 
 #events-container{
     margin: 75px 75px;
     display:flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .event-details{
-    width: 100%;
+    width: 70%;
     margin-bottom: 20px;
     padding: 20px;
     background-color:rgba(0,32,64, 0.9);
 }
 
 #map{
-    display: flex;
+    padding-right: 100px;
+    padding-top:50px;
 }
 
 /*Entries Page */
@@ -259,3 +273,7 @@ footer{
     padding: 2%;
     color:rgb(0,32,64);
 }
+
+/*Media Queries*/
+
+
