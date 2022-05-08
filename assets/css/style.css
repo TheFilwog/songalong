@@ -1,5 +1,5 @@
 /*
-colours: blue rgb(3,11,99) yellow rgb(255,199,90) red rgb(254,111,94) green rgb(122,168,140)
+colours: blue rgb(0,32,64) yellow rgb(255,199,90) red rgb(254,111,94) green rgb(122,168,140)
 */
 
 /* Font imports */
@@ -95,8 +95,8 @@ header{
 }
   
 #menu li:nth-child(1) a {
-      background: rgb(3,11,99);
-      color: rgb(3,11,99);
+      background: rgb(0,32,64);
+      color: rgb(0,32,64);
 }
   
 #menu li:nth-child(2) a {
@@ -105,8 +105,8 @@ header{
 }
   
 #menu li:nth-child(3) a {
-      background: rgb(3,11,99);
-      color: rgb(3,11,99);
+      background: rgb(0,32,64);
+      color: rgb(0,32,64);
 }
   
 #menu li:nth-child(4) a {
@@ -151,7 +151,7 @@ header{
 /* Body styling */
 
 #about-container{
-    background-color:rgba(3,11,99, 0.6);
+    background-color:rgba(0,32,64, 0.9);
     display: flex;
     justify-content: space-around;
     margin: 75px 75px;
@@ -186,7 +186,7 @@ header{
     width: 100%;
     margin-bottom: 20px;
     padding: 20px;
-    background-color:rgba(3,11,99, 0.6);
+    background-color:rgba(0,32,64, 0.9);
 }
 
 #map{
@@ -196,7 +196,7 @@ header{
 /*Entries Page */
 
 #map-selector{
-    background-color:rgba(3,11,99, 0.6);
+    background-color:rgba(0,32,64, 0.9);
     display: inline-block;
     margin: 75px 75px;
     vertical-align: middle;
@@ -213,7 +213,7 @@ header{
 }
 
 #entry-info{
-    background-color:rgba(3,11,99, 0.6);
+    background-color:rgba(0,32,64, 0.9);
     display: flex;
     margin: 75px 75px;
     padding: 20px;
@@ -229,6 +229,14 @@ header{
 
 #photos > img {
     width: 100%;
+}
+
+/*Voting Page*/
+#voting{
+    background-color:rgba(0,32,64, 0.9);
+    display: flex;
+    margin: 75px 75px;
+    padding: 20px;
 }
 
 /*Footer*/
@@ -249,5 +257,5 @@ footer{
     font-size: 250%;
     margin: 0;
     padding: 2%;
-    color:rgb(3,11,99);
+    color:rgb(0,32,64);
 }
