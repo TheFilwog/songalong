@@ -11,6 +11,14 @@
     font-family: euro2;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Navbar */
 
 #logo-img{
@@ -61,6 +69,19 @@ footer{
     margin: 0;
     padding: 2%;
     color:rgb(233, 255, 112);
+}
+
+/*Entries Page */
+.card-flag{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /*gallery page */
