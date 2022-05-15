@@ -42,5 +42,23 @@ nav li{
     height :100px;
 }
 
-/* Hero Section */
+/* Footer */
 
+footer{
+    background-color:rgb(0, 168, 224);
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 250%;
+    margin: 0;
+    padding: 2%;
+    color:rgb(233, 255, 112);
+}
