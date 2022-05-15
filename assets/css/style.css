@@ -47,9 +47,14 @@ nav li{
 }
 
 #nav-spacer{
-    height :96px;
+    height : 98px;
 }
 
+/* Hero */
+#hero{
+
+    background-image: url('../images/hero.jpeg');
+}
 /* Footer */
 
 footer{
