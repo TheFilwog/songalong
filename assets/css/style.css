@@ -39,7 +39,7 @@ nav li{
 }
 
 #nav-spacer{
-    height :100px;
+    height :96px;
 }
 
 /* Footer */
@@ -61,4 +61,16 @@ footer{
     margin: 0;
     padding: 2%;
     color:rgb(233, 255, 112);
+}
+
+/*gallery page */
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
