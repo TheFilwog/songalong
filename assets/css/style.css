@@ -11,6 +11,7 @@
     font-family: euro2;
 }
 
+/* global styling */
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -21,6 +22,7 @@ body, html {
 
 h1, h2, h3{
     font-family: 'Oswald', sans-serif;
+    font-size: 2em;
 }
 
 /* Navbar */
@@ -128,7 +130,7 @@ footer{
     justify-content: space-evenly;
 }
 
-/*gallery page */
+/* Gallery page */
 #photos {
     clear: both;
     line-height: 0;
@@ -141,7 +143,7 @@ footer{
 }
 
 
-/* media queries */
+/* Media queries */
 
 @media screen and (max-width: 950px){
     #photos{
