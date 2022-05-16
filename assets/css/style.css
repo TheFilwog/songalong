@@ -81,6 +81,19 @@ nav li{
     border-color: rgb(233, 255, 112) !important;
     color:black;
 }
+
+#about-us-div{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    clear: both;
+    padding-top: 6rem;
+    padding-bottom: 0;
+    display: block;
+    text-align: center;
+}
+
+
 /* Footer */
 
 footer{
@@ -104,11 +117,11 @@ footer{
 
 /*Entries Page */
 
-#map-selector{
+#map-selector-section{
     background-color:rgb(0, 168, 224);
 }
 
-#map-selector h1{
+#map-selector-section h1{
     text-align: center;
 }
 #map-selector img{
@@ -136,13 +149,22 @@ footer{
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    background-color: rgb(233, 255, 112);
 }
 
 #photos > img {
     width: 100%;
 }
 
+#photos img{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(233, 255, 112);
+}
 
+#photos img:hover{
+    transform: scale(1.5);
+}
 /* Media queries */
 
 @media screen and (max-width: 950px){
