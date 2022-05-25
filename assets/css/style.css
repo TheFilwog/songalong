@@ -246,6 +246,13 @@ footer {
 
 @media screen and (max-width: 600px) {
 
+    .hero-text {
+        text-align: center;
+        position: relative;
+        transform: translate(-50%, -50%);
+        font-size: 1em;
+    }
+
     #photos {
         column-count: 1;
     }
@@ -256,12 +263,6 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-    .hero-text {
-        text-align: center;
-        position: relative;
-        transform: translate(-50%, -50%);
-        font-size: 1em;
-    }
 
     #logo {
         margin-left: 0;
