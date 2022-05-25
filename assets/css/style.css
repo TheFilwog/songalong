@@ -250,12 +250,26 @@ footer {
         column-count: 1;
     }
 
-    
-    #events-btn {
-        margin-top: 0.5em;
-    }
-
     #logo {
         margin-left: 0.5em;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .hero-text {
+        text-align: center;
+        position: relative;
+        transform: translate(-50%, -50%);
+        font-size: 1em;
+    }
+
+    #logo {
+        margin-left: 0;
+        font-size: 200%;
+    }
+
+    #nav-spacer {
+        height: 75px;
+    }
+}
+
