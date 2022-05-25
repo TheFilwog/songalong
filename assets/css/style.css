@@ -103,8 +103,10 @@ nav li {
 }
 
 iframe {
-    display: block;
+    display: block; 
+    width: 100%;
 }
+
 
 #events .card{
     padding-bottom: 2em;
