@@ -125,12 +125,23 @@ footer{
 
 #map-selector-section h1{
     text-align: center;
+    padding-top: 2em;
 }
 #map-selector img{
     width: 90px;
     height: 90px;
     border-radius: 50%;
     padding: 5px;
+}
+
+#entries-sect{
+    padding-bottom: 2em;
+}
+
+#entries-sect h1{
+    text-align: center;
+    padding: 1em 0;
+    text-transform: uppercase;
 }
 
 .card-flag{
