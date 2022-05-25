@@ -230,6 +230,12 @@ footer {
     #photos {
         column-count: 3;
     }
+
+    #logo-img{
+        display: flex !important; 
+        justify-content: left !important;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -244,7 +250,12 @@ footer {
         column-count: 1;
     }
 
+    
     #events-btn {
-        margin-top: 1em;
+        margin-top: 0.5em;
+    }
+
+    #logo {
+        margin-left: 0.5em;
     }
 }
