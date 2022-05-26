@@ -47,7 +47,7 @@ This section introduces the features that have been implemented for the website 
   - The logo links the user back to the main content page. This is considered to be best practice as users are accustomed to this behaviour when browsing websites in general.
   - The navigation bar is responsive and has been fixed at the top of the screen for smaller devices. This would allow the user to easily navigate to next page without scrolling back up to the navigation bar. A burger menu is used for mobile devices used in portrait orientation. 
 
-    ![Navigation Bar](assets/images/navigation-bar.PNG)
+    ![Navigation Bar](assets/images/navbar.png)
 
 - __The Hero Image__
 
@@ -60,9 +60,8 @@ This section introduces the features that have been implemented for the website 
 
   - The About Us section contains information about the Eurovision Song Contest 2022 with links to the entries and event times. 
   - The user can also view an embedded google map of the Eurovision Song Contest 2022 Venue. 
-  - The About Us content paragraph also draws attention to the Contact Us page where the user can provide feedback or submit a query. 
 
-     ![About Us](assets/images/about-us.PNG)
+     ![About Us](assets/images/about.png)
  
  
 - __Entries Section__
@@ -71,20 +70,20 @@ This section introduces the features that have been implemented for the website 
   - The top 3 countries are shown below this, with the entry video embedded into the site.
  
 
-     ![Entries](assets/images/our-reasons.PNG)
+     ![Entries](assets/images/entries.png)
 
 - __Gallery Section__
 
   - The Gallery contains high resolution images of the contest and the performers for users to view. 
   - The images are external images loaded from the Eurovision website. 
 
-      ![Gallery](assets/images/last-visited.PNG)
+      ![Gallery](assets/images/gallery.png)
 
 - __The Footer__ 
 
   - The footer section contains social media links to Facebook, YouTube and Instagram. These links currently take the user to the homepage of each social media site.
 
-      ![Footer](assets/images/footer.PNG)
+      ![Footer](assets/images/footer.png)
 
 - __The Contact Page__
 
@@ -92,7 +91,7 @@ This section introduces the features that have been implemented for the website 
   - The form is set in a semi-transparent container in Mindaro. 
   - Basic information like name, email, subject and your message is requested to allow the site owners to reply to the user.
 
-    ![Contact Us](assets/images/contact-us.PNG)
+    ![Contact Us](assets/images/contact.png)
 
 
 
@@ -111,7 +110,7 @@ This section introduces the features that have been implemented for the website 
   - The warnings returned referred to headers that were not added to sections where the design intended that headers would be excluded.
 
 - CSS
-  - No errors were found in my CSS content but a number of unspecified errors were identified in the Bootstrap library imported. (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fashraafa.github.io%2Four-travels&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+  - No errors were found in my CSS content but a number of unspecified errors were identified in the Bootstrap library imported. (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fthefilwog.github.io%2Fsongalong&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 - Accessibility
   - Scored 100% on all pages. 
