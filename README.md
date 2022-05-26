@@ -1,108 +1,185 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Songalong Website</h1>
 
-Welcome TheFilwog,
+## Introduction
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Songalong is a website dedicated to the 2022 Eurovision Song Contest. The site is intended to act as a source of information for fans of the competition with details on the events, performers and music of the contest. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The live site can be accessed [here](https://thefilwog.github.io/songalong/)
 
-## Gitpod Reminders
+![Responsive Mockup](assets/images/amiresponsive.JPG)
+ 
+## Design
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Color Pallete__
+    - The two main colours used are Mindaro (HEX #E9FF70) and Cerulean Crayola (HEX #00A8E0). 
+    - Mindaro was considered to be the base color which is predominantly seen in the header of the site. 
+    - Cerulean Crayola was matched to the base color as the font with highest contrast that complies with Web Content Accessibility Guidelines (WCAG).
 
-`python3 -m http.server`
+      ![Main Colors](assets/images/main-colors.PNG)
 
-A blue button should appear to click: _Make Public_,
+- __Typography__
+    - The Oswald Google font is used in the headings and menu and has sans-serif as the fallback font. It was chosen for it's clean and modern aesthetic.
+    - Montserrat is used in the body and considered to be popular sans-serif font. The fallback font is sans-serif.
+    - Eurovision Choir 2017 is used in the logo and was obtained from fontspace.com. 
 
-Another blue button should appear to click: _Open Browser_.
+  
+      ![Google Fonts](assets/images/google-fonts.PNG)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __Wireframes__
+    - Desktop Wireframe
+        - The desktop wireframe was designed first to structure the layout of the content and media that was envisaged.
 
-A blue button should appear to click: _Make Public_,
+          ![Desktop Wireframe](assets/images/desktop-wireframe.PNG)
 
-Another blue button should appear to click: _Open Browser_.
+    - Mobile Wireframe
+        - The mobile wireframe considers the layout for smaller display screens.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+          ![Mobile Wireframe](assets/images/mobile-wireframe.PNG)
+  
 
-To log into the Heroku toolbelt CLI:
+## Features 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+This section introduces the features that have been implemented for the website in order to create a seamless experience through quick navigation of content and the ability to contact the site owners.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Existing Features
 
-------
+- __Navigation Bar__
 
-## Release History
+  - The navigation bar includes the main title (logo) and a page menu to access the 4 main pages. 
+  - The logo links the user back to the main content page. This is considered to be best practice as users are accustomed to this behaviour when browsing websites in general.
+  - The navigation bar is responsive and has been fixed at the top of the screen for smaller devices. This would allow the user to easily navigate to next page without scrolling back up to the navigation bar. A burger menu is used for mobile devices used in portrait orientation. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    ![Navigation Bar](assets/images/navigation-bar.PNG)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- __The Hero Image__
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+  - The About and Contact pages contain a hero image of a selection of performance artists set amongst coloured tiles. This image was licenced for non-commercial use from Adobe Stock Images. 
+  - This image was chosen as it represents the diversity of musical performers in the competition and provides an aesthetic splash of colour to the design. 
+  
+    ![Hero Image](assets/images/hero-image.PNG)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- __About Us Section__
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - The About Us section contains information about the Eurovision Song Contest 2022 with links to the entries and event times. 
+  - The user can also view an embedded google map of the Eurovision Song Contest 2022 Venue. 
+  - The About Us content paragraph also draws attention to the Contact Us page where the user can provide feedback or submit a query. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+     ![About Us](assets/images/about-us.PNG)
+ 
+ 
+- __Entries Section__
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - This section starts with a display of the National Flag of each competing country presented in a series of circles. These flag icons act as links which will open a new tab to the Youtube Video of that countries entry for 2022. 
+  - The top 3 countries are shown below this, with the entry video embedded into the site.
+ 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+     ![About Us](assets/images/our-reasons.PNG)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- __Gallery Section__
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  - The Gallery contains high resolution images of the contest and the performers for users to view. 
+  - The images are external images loaded from the Eurovision website. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+      ![Last Visited Section](assets/images/last-visited.PNG)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- __The Footer__ 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  - The footer section contains social media links to Facebook, YouTube and Instagram. These links currently take the user to the homepage of each social media site.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+      ![Footer](assets/images/footer.PNG)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- __The Contact Page__
 
-------
+  - This page provides the user with the ability to provide feedback or raise a query to the site owners with a clear call to action. 
+  - The form is set in a semi-transparent container in Mindaro. 
+  - Basic information like name, email, subject and your message is requested to allow the site owners to reply to the user.
 
-## FAQ about the uptime script
+    ![Footer](assets/images/contact-us.PNG)
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+## Testing 
+ - Please see the section that follows for more detail regarding the testing that was completed below:
+   - HTML and CSS code
+   - Accessibility
+   - Mobile responsiveness
+   - Browser compatibility
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Validator Testing 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- HTML
+  - There  were no errors identified in the site pages [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthefilwog.github.io%2Fsongalong%2Findex.html).
+  - The warnings returned referred to headers that were not added to sections where the design intended that headers would be excluded.
 
-**So….?**
+- CSS
+  - No errors were found in my CSS content but a number of unspecified errors were identified in the Bootstrap library imported. (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fashraafa.github.io%2Four-travels&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- Accessibility
+  - Scored 100% on all pages. 
 
-**Can I opt out?**
+- Performance
+  - Scored a minimum of 98% on all pages except gallery. The gallery page performs less effectively as the images are high resolution loaded from the official Eurovision site in order to respect the copyright of the images.
+- Best Practices
+  - Scored a minimum of 92% on all pages with the exception of the entries page which scores lower due to the aspect ratio of the flag images being altered to facilitate the circular icons but this has no impact on their appearance or usability. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+   - About Us
+  
+      ![Footer](assets/images/about-us-lighthouse.PNG)
 
-**Anything more?**
+  - Inspirations
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+      ![Footer](assets/images/inspirations-lighthouse.PNG)
 
----
+  - Contact Us
 
-Happy coding!
+       ![Footer](assets/images/contact-us-lighthouse.PNG)
+
+- Mobile Responsiveness
+  - Minimum screen width for responsive design was done at 320px.
+  - Mobile responsiveness was tested using Firefox Developer Tools and Responsive Design Mode to simulate a range of mobile devices. 
+  - Responsive design testing on physical devices were done on an iPhone 12 Pro and a Samsung Galaxy S10+.
+
+- Desktop Browser Compatibility
+  - Site was tested in the following browsers:
+     - Microsoft Edge Version 101.0.1210.53 (Official build) (64-bit)
+     - Firefox Version 100.0 (Official build) (64-bit)
+
+### Bugs
+
+There were no known bugs at the time of final deployment. 
+
+## Deployment
+
+The site was deployed to GitHub pages.
+
+- The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab.
+  - On the left menu list, select Pages.
+  - In the source section drop-down menu, select the Main Branch and click Save.
+  - Upon successful save, the Github Pages section will display a message to indicate that the site is ready to be published at https://thefilwog.github.io/songalong/index.html
+
+## Credits 
+
+The following section identifies websites and individuals that supported me whilst building the Songalong site.
+
+### Content and Media
+
+- General Guidance 
+  - [Code Institute Course Material](https://learn.codeinstitute.net/)
+  - Reuben Ferrante - Senior Python Developer for his mentorship regarding best industry practices
+  - [Wireframes](https://balsamiq.com/)
+  - [HTML References](https://www.w3schools.com/html/)
+  - [CSS References](https://www.w3schools.com/css/)
+  - [General Challenges with CSS](https://stackoverflow.com/)
+  - [Icons](https://fontawesome.com/)
+  - [Fonts](https://fonts.google.com/)
+  - [Color Pallettes and Contrast Checker](https://coolors.co/)
+  - [Image to WebP format conversion](https://www.convertio.co)
+  - [Images](https://stock.adobe.com/)
+  - [Gallery Images](https://eurovision.tv/)
+  - [Videos](https://www.youtube.com/)
+  - [Maps](https://maps.google.com/)
+  - [CSS Styling](https://getbootstrap.com/)
+  - [Logo Font](https://www.fontspace.com/)
