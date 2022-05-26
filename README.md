@@ -6,7 +6,7 @@ Songalong is a website dedicated to the 2022 Eurovision Song Contest. The site i
 
 The live site can be accessed [here](https://thefilwog.github.io/songalong/)
 
-![Responsive Mockup](assets/images/amiresponsive.JPG)
+![Responsive Mockup](assets/images/amiresponsive.png)
  
 ## Design
 
@@ -15,26 +15,24 @@ The live site can be accessed [here](https://thefilwog.github.io/songalong/)
     - Mindaro was considered to be the base color which is predominantly seen in the header of the site. 
     - Cerulean Crayola was matched to the base color as the font with highest contrast that complies with Web Content Accessibility Guidelines (WCAG).
 
-      ![Main Colors](assets/images/main-colors.PNG)
+      ![Main Colors](assets/images/color-palette.png)
 
 - __Typography__
     - The Oswald Google font is used in the headings and menu and has sans-serif as the fallback font. It was chosen for it's clean and modern aesthetic.
     - Montserrat is used in the body and considered to be popular sans-serif font. The fallback font is sans-serif.
     - Eurovision Choir 2017 is used in the logo and was obtained from fontspace.com. 
 
-  
-      ![Google Fonts](assets/images/google-fonts.PNG)
 
 - __Wireframes__
     - Desktop Wireframe
         - The desktop wireframe was designed first to structure the layout of the content and media that was envisaged.
 
-          ![Desktop Wireframe](assets/images/desktop-wireframe.PNG)
+          ![Desktop Wireframe](assets/images/wireframe-desktop.png)
 
     - Mobile Wireframe
         - The mobile wireframe considers the layout for smaller display screens.
 
-          ![Mobile Wireframe](assets/images/mobile-wireframe.PNG)
+          ![Mobile Wireframe](assets/images/wireframe-mobile.png)
   
 
 ## Features 
@@ -56,7 +54,7 @@ This section introduces the features that have been implemented for the website 
   - The About and Contact pages contain a hero image of a selection of performance artists set amongst coloured tiles. This image was licenced for non-commercial use from Adobe Stock Images. 
   - This image was chosen as it represents the diversity of musical performers in the competition and provides an aesthetic splash of colour to the design. 
   
-    ![Hero Image](assets/images/hero-image.PNG)
+    ![Hero Image](assets/images/hero.webp)
 
 - __About Us Section__
 
@@ -73,14 +71,14 @@ This section introduces the features that have been implemented for the website 
   - The top 3 countries are shown below this, with the entry video embedded into the site.
  
 
-     ![About Us](assets/images/our-reasons.PNG)
+     ![Entries](assets/images/our-reasons.PNG)
 
 - __Gallery Section__
 
   - The Gallery contains high resolution images of the contest and the performers for users to view. 
   - The images are external images loaded from the Eurovision website. 
 
-      ![Last Visited Section](assets/images/last-visited.PNG)
+      ![Gallery](assets/images/last-visited.PNG)
 
 - __The Footer__ 
 
@@ -94,7 +92,7 @@ This section introduces the features that have been implemented for the website 
   - The form is set in a semi-transparent container in Mindaro. 
   - Basic information like name, email, subject and your message is requested to allow the site owners to reply to the user.
 
-    ![Footer](assets/images/contact-us.PNG)
+    ![Contact Us](assets/images/contact-us.PNG)
 
 
 
@@ -120,21 +118,14 @@ This section introduces the features that have been implemented for the website 
 
 - Performance
   - Scored a minimum of 98% on all pages except gallery. The gallery page performs less effectively as the images are high resolution loaded from the official Eurovision site in order to respect the copyright of the images.
+
 - Best Practices
   - Scored a minimum of 92% on all pages with the exception of the entries page which scores lower due to the aspect ratio of the flag images being altered to facilitate the circular icons but this has no impact on their appearance or usability. 
 
 
-   - About Us
-  
-      ![Footer](assets/images/about-us-lighthouse.PNG)
+     ![Lighthouse Report](assets/images/lighthouse.png)
 
-  - Inspirations
 
-      ![Footer](assets/images/inspirations-lighthouse.PNG)
-
-  - Contact Us
-
-       ![Footer](assets/images/contact-us-lighthouse.PNG)
 
 - Mobile Responsiveness
   - Minimum screen width for responsive design was done at 320px.
